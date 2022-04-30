@@ -1,7 +1,7 @@
 <template>
   <div class='articalPage'>
-    <Readmd path='/static/artical/normal/about.md' />
-    <!-- fdsfds -->
+    <!-- <Readmd path='/static/artical/normal/about.md' /> -->
+    fdsfds
   </div>
 </template>
 

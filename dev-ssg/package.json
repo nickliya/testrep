@@ -1,0 +1,30 @@
+{
+  "name": "dev-ssg",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite-ssg build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vicons/ionicons5": "^0.12.0",
+    "axios": "^0.27.2",
+    "naive-ui": "^2.28.2",
+    "vfonts": "^0.0.3",
+    "vue": "^3.2.25",
+    "vue-router": "4",
+    "vue3-markdown-it": "^1.0.10"
+  },
+  "devDependencies": {
+    "@css-render/vue3-ssr": "^0.15.9",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vueuse/head": "^0.7.6",
+    "typescript": "^4.5.4",
+    "unplugin-vue-components": "^0.19.3",
+    "vite": "^2.9.5",
+    "vite-plugin-pages": "^0.23.0",
+    "vite-ssg": "./vite-ssg-0.19.2.tgz",
+    "vue-tsc": "^0.34.7"
+  }
+}
