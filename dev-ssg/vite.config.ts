@@ -20,5 +20,8 @@ export default defineConfig({
       "@": resolve(__dirname, "./src/components"),
     },
   },
-  
+  ssgOptions: {
+    mock: true,
+    format: 'cjs',
+  },
 });
