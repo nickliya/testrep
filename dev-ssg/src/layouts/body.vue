@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import "highlight.js/styles/agate.css";
+// import "highlight.js/styles/agate.css";
 import { defineComponent } from "vue";
 
 export default defineComponent({

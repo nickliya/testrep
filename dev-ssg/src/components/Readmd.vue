@@ -22,7 +22,7 @@ import MarkdownItTasklists from "markdown-it-task-lists";
 import MarkdownItTOC from "markdown-it-toc-done-right";
 
 //设置高亮的样式
-import "highlight.js/styles/monokai.css";
+// import "highlight.js/styles/monokai.css";
 import { CloudyNight } from "@vicons/ionicons5";
 
 export default defineComponent({
