@@ -1,16 +1,17 @@
 <template>
   <div class='articalPage'>
-    <Readmd path='/static/artical/normal/about.md' />
+    <!-- <Readmd path='/static/artical/normal/about.md' /> -->
     <!-- fdsfds -->
+    <HelloWorld />
   </div>
 </template>
 
 <script lang="ts">
-import Readmd from '@/Readmd.vue';
+import HelloWorld from '/public/static/artical/normal/about.md'
 
 export default {
   components: {
-    Readmd
+    HelloWorld
   },
 }
 </script>
